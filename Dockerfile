@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the built jar file from the target directory to the container
-COPY target/simple-java-maven-app-1.0-SNAPSHOT.jar app.jar
+COPY target/my-app-1.0-SNAPSHOT.jar app.jar
 
 # Expose the port the application runs on
 EXPOSE 8080
